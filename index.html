@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RestoPK</title> 
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- Navbar Section -->
+
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>restoPK</a>
+        <nav class="navbar">
+            <a href = "#home" class="active">Home</a>
+            <a href = "#dishes">Dishes</a>
+            <a href = "#menu">Menu</a>
+            <a href = "#about">About</a>
+            <a href = "#review">Review</a>
+            <a href = "#order">Order</a>
+        </nav>
+        <div class="icons">
+            <i class = "fas fa-bars" id = "menu-bars"></i>
+            <i class = "fas fa-search" id = "search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <!-- User Searches -->
+        <form action="" id="search-form">
+            <input type="search" name="" placeholder="Find Your Food!" id="search-box">
+            <label for="search-box" class = "fas fa-search"></label>
+            <i class = "fas fa-times" id = "close"></i>
+        </form>
+
+    <!-- Main Section of the page -->
+    <section class="home" id = "#home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Chef Recommends</span>
+                            <h3 class>Ramen</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur maxime molestiae animi, harum aspernatur voluptates eligendi officiis blanditiis voluptate quasi, laudantium ab ipsum illum ipsam! Odit maxime vel non nobis?</p>
+                            <a href="#" class="btn">Order Now</a> 
+                        </div>
+                        <div class="image">
+                            <img src="./images/ramen.jpg" height="400px" width="400px">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Chef Recommends</span>
+                            <h3>Burgers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur maxime molestiae animi, harum aspernatur voluptates eligendi officiis blanditiis voluptate quasi, laudantium ab ipsum illum ipsam! Odit maxime vel non nobis?</p>
+                            <a href="#" class="btn">Order Now</a> 
+                        </div>
+                        <div class="image">
+                            <img src="./images/burger.jpg" height="400px" width="400px">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Chef Recommends</span>
+                            <h3>Pizza</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur maxime molestiae animi, harum aspernatur voluptates eligendi officiis blanditiis voluptate quasi, laudantium ab ipsum illum ipsam! Odit maxime vel non nobis?</p>
+                            <a href="#" class="btn">Order Now</a> 
+                        </div>
+                        <div class="image">
+                            <img src="./images/pizza.jpg" height="400px" width="400px">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+    </section>
+
+    <!-- script tags -->
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+</html>
