@@ -19,16 +19,12 @@ document.querySelector('#close').onclick = () =>{
     document.querySelector('#search-form').classList.remove('active');
 }
 
-var swiper = new Swiper(".home-slider", {
+var swiper = new swiper(".home-slider", {
+    slidesPerView: 1,
     spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-      delay: 7500,
-      disableOnInteraction: false,
-    },
+    loop: true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
-   loop: true,
   });
